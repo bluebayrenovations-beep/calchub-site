@@ -357,13 +357,13 @@ const App = () => {
   const AboutPage = () => (
     <div className="max-w-4xl mx-auto px-4 py-16 animate-in fade-in">
       <div className="text-center mb-16">
-        <h1 className="text-5xl font-black mb-6">About CalcHub</h1>
+        <h1 className="text-5xl font-black mb-6">About Calculate My Pay</h1>
         <p className="text-xl text-gray-500">Precision-built financial tools for the modern workforce.</p>
       </div>
       <div className="grid md:grid-cols-2 gap-12">
         <div>
           <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
-          <p className="text-gray-600 leading-relaxed">CalcHub was designed to eliminate the guesswork from salary negotiations and personal budgeting. We provide clear, accurate, and private calculation tools to help you understand your worth.</p>
+          <p className="text-gray-600 leading-relaxed">Calculate My Pay was designed to eliminate the guesswork from salary negotiations and personal budgeting. We provide clear, accurate, and private calculation tools to help you understand your worth.</p>
         </div>
         <div className="bg-indigo-50 p-8 rounded-3xl">
           <h3 className="font-bold text-indigo-900 mb-2">Privacy Policy</h3>
@@ -377,8 +377,8 @@ const App = () => {
   const renderContent = () => {
     if (currentPage === 'home') return <HomePage />;
     if (currentPage === 'about') return <AboutPage />;
-    if (currentPage === 'privacy') return <LegalPage title="Privacy Policy" content="At CalcHub, we value your privacy. We do not collect personal financial data. Your inputs stay in your browser. We use cookies only for analytics and ad personalization." />;
-    if (currentPage === 'terms') return <LegalPage title="Terms of Service" content="By using CalcHub, you agree that calculations are estimates only. We are not financial advisors. Please consult a professional for tax or legal advice." />;
+    if (currentPage === 'privacy') return <LegalPage title="Privacy Policy" content="At Calculate My Pay, we value your privacy. We do not collect personal financial data. Your inputs stay in your browser. We use cookies only for analytics and ad personalization." />;
+    if (currentPage === 'terms') return <LegalPage title="Terms of Service" content="By using Calculate My Pay, you agree that calculations are estimates only. We are not financial advisors. Please consult a professional for tax or legal advice." />;
     if (currentPage === 'disclaimer') return <LegalPage title="Earnings Disclaimer" content="Results are for informational purposes. Actual take-home pay depends on specific tax jurisdictions, withholdings, and insurance premiums." />;
     
     const activeCalc = calculators.find(c => c.id === currentPage);
@@ -469,4 +469,5 @@ const App = () => {
 };
 
 export default App;
+
 
