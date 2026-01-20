@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 /**
- * CalcHub - Integrated Financial Toolset
+ * Calculate My Pay - Integrated Financial Toolset
  * Fully AdSense Compliant & Navigation Optimized
  */
 
@@ -396,7 +396,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer group" onClick={() => setCurrentPage('home')}>
             <div className="bg-indigo-600 p-1.5 rounded-lg group-hover:scale-110 transition-transform"><Calculator size={20} className="text-white" /></div>
-            <span className="font-black text-xl tracking-tighter">CalcHub</span>
+            <span className="font-black text-xl tracking-tighter">Calculate My Pay</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-bold text-gray-600">
@@ -439,7 +439,7 @@ const App = () => {
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center gap-2 mb-6">
                 <Calculator className="text-indigo-500" />
-                <span className="font-black text-xl tracking-tighter">CalcHub</span>
+                <span className="font-black text-xl tracking-tighter">Calculate My Pay</span>
               </div>
               <p className="text-gray-400 text-sm">Professional salary calculation tools for workers, contractors, and employers.</p>
             </div>
@@ -460,7 +460,7 @@ const App = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} CalcHub. All rights reserved.
+            &copy; {new Date().getFullYear()} Calculate My Pay. All rights reserved.
           </div>
         </div>
       </footer>
@@ -469,3 +469,4 @@ const App = () => {
 };
 
 export default App;
+
